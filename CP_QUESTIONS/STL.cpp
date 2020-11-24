@@ -1,10 +1,20 @@
+/*
+This file containes the implementation of the following: 
+    1 - VECTORS
+    2 - MAP
+    3 - SET
+    4 - PAIR    
+    5 - TUPLE
+    6 - LIST
+    7 - STACK
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-
-
+    
     // VECTORS
     vector<int> v;  // declaration of vector of type int named as v
 
@@ -18,7 +28,6 @@ int main()
     {
         cout << v[i] << endl;
     }
-    
 
     // pop_back() , removes last element
     v.pop_back();
@@ -44,7 +53,6 @@ int main()
     v2.push_back(4);
 
     vector<int> v3(v2);
-    
     
     
     // ORDERED MAP
@@ -87,9 +95,7 @@ int main()
         cout << "Map is not empty" << endl; 
     }
     
-
     map<string, vector<int>> a;
-
 
     // find()  , finds a key
     int n;
@@ -158,7 +164,6 @@ int main()
     // clear()
     s.clear();
     s.empty() ? cout << "Set is Empty" << endl : cout << "Set is not Empty" << endl;
-
 
     unordered_set<int> us;
     cout << us.size() << endl;
